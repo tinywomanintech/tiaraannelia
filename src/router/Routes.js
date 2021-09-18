@@ -5,7 +5,7 @@ export default function Routes() {
   return (
     <Router>
       <Switch>
-        <Route path="/tiaraannelia" exact>
+        <Route path="/" exact>
           <Homepage />
         </Route>
       </Switch>
