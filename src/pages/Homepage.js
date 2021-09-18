@@ -1,14 +1,16 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import Footer from '../parts/Footer';
-import Header from '../parts/Header';
+import Structure from '../components/Structure';
+// import Footer from '../parts/Footer';
+// import Header from '../parts/Header';
 
 const Homepage = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Hero />
-      <Footer />
+      <Structure />
+      {/* <Footer /> */}
     </div>
   );
 };
